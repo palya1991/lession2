@@ -1,0 +1,13 @@
+body {
+	background-image: url(../image/back.jpg);
+	background-position: top right;
+	background-attachment: fixed;
+}
+
+ul li a {
+	color: deeppink;
+}
+
+.pink a {
+	color: deeppink;
+}
