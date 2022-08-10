@@ -6,8 +6,14 @@ body {
 
 ul li a {
 	color: deeppink;
+	font-size: 18px;
+	background-color: white;
+	font-style: italic;
 }
 
 .pink a {
 	color: deeppink;
+	font-size: 18px;
+	background-color: white;
+	font-style: italic;
 }
