@@ -4,10 +4,10 @@ body {
 	background-attachment: fixed;
 }
 
-ul li a {
+li a {
 	color: deeppink;
 	font-size: 18px;
-	background-color: white;
+	background-color: green;
 	font-style: italic;
 }
 
@@ -16,4 +16,9 @@ ul li a {
 	font-size: 18px;
 	background-color: white;
 	font-style: italic;
+}
+
+h2 {
+	color: darkseagreen;
+	font-size: 20px;
 }
