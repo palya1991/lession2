@@ -4,10 +4,64 @@ body {
 	background-attachment: fixed;
 }
 
-ul li a {
+li a {
 	color: deeppink;
+	font-size: 18px;
+	background-color: green;
+	font-style: italic;
 }
 
 .pink a {
 	color: deeppink;
+	font-size: 18px;
+	background-color: white;
+	font-style: italic;
+}
+
+h2 {
+	color: darkseagreen;
+	font-size: 22px;
+	font-style: oblique;
+}
+
+.none a {
+	text-decoration: none;
+}
+.none a:hover {
+	text-decoration: underline;
+	color: red;
+}
+.grey a {
+	text-decoration: none;
+}
+
+.grey a {
+	text-decoration: underline;
+	color: grey;
+}
+
+.center1 {
+	text-align: center;
+}
+
+.bigred:first-letter {
+	color: red;
+	font-size: 26px;
+	font-style: italic;
+}
+
+.satellite li:before {
+	content:"";
+	display: inline-block;
+	background: url(../image/114904.png);
+	width: 50px;
+	height: 50px;
+}
+
+.satellite .picsat:after {
+	content:"";
+	display: inline-block;
+	background: url(../image/new.png);
+	width: 40px;
+	height: 27px;
 }
