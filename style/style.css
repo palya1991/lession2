@@ -31,9 +31,6 @@ h2 {
 	text-decoration: underline;
 	color: red;
 }
-.grey a {
-	text-decoration: none;
-}
 
 .grey a {
 	text-decoration: underline;
@@ -76,4 +73,30 @@ img.border4 {
 	border-style: dashed;
 	border-color: red;
 	border-width: 5px;
+}
+
+input.sizefor {
+	width: 30%;
+	padding: 10px 45px;
+	box-sizing: border-box;
+	background-color: mintcream;
+	background-image: url(../image/keyboard.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+}
+
+input#password {
+	width: 20%;
+	padding: 7px 10px;
+	box-sizing: border-box;box-sizing: border-box;
+	background-color: mintcream;
+	background-image: url(../image/keyboard2.png);
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+}
+
+input#adressweb {
+	width: 25%;
+	padding: 7px 10px;
+	box-sizing: border-box;
 }
