@@ -1,14 +1,54 @@
 body {
 	background-image: url(../image/back.jpg);
 	background-position: top right;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
-li a {
-	color: deeppink;
+.zero a {
+	color: #fa20e4;
+	font-size: 23px;
+	background-color: #d9fce4;
+	font-style: Helvetica, sans-serif;
+}
+
+.one a {
+	color: #e0f72f;
 	font-size: 18px;
-	background-color: green;
+	background-color: grey;
 	font-style: italic;
+}
+
+.two a {
+	color: #f7432f;
+	font-size: 19px;
+	background-color: greenyellow;
+	font-style: Georgia, serif;
+}
+
+.three a {
+	color: #3cf72f;
+	font-size: 20px;
+	background-color: orangered;
+	font-style: Palatino, URW Palladio L, serif;
+}
+
+.four a {
+	color: #05a19b;
+	font-size: 21px;
+	background-color: lightyellow;
+	font-style: Andale Mono, monospace;
+}
+
+.five a {
+	color: #f00251;
+	font-size: 22px;
+	background-color: royalblue;
+	font-style: Impact, fantasy;
+}
+
+ul {
+	list-style-type: none;
 }
 
 .pink a {
@@ -32,13 +72,27 @@ h2 {
 	color: red;
 }
 
+.none.bigred {
+	background-color: lightblue;
+}
+
 .grey a {
 	text-decoration: underline;
 	color: grey;
 }
 
-.center1 {
+.center1 a {
+	text-decoration: none;
 	text-align: center;
+	border-bottom: 5px double deepskyblue;
+	color: deepskyblue;
+	font-size: 30px;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.center1 a:hover {
+	text-decoration: underline;
+	color: #93c572;
 }
 
 .bigred:first-letter {
@@ -47,20 +101,41 @@ h2 {
 	font-style: italic;
 }
 
+.satellite {
+	list-style-type: none;
+	width: 35%;
+	background-color: #c5faf1;
+}
+
 .satellite li:before {
 	content:"";
 	display: inline-block;
 	background: url(../image/114904.png);
 	width: 50px;
-	height: 50px;
+	height: 33px;
 }
 
 .satellite .picsat:after {
 	content:"";
 	display: inline-block;
 	background: url(../image/new.png);
-	width: 40px;
-	height: 27px;
+	width: 30px;
+	height: 30px;
+}
+
+.category {
+	color: darkseagreen;
+	background-color: #d7e4fc;
+	width: 15%;
+	font-size: 22px;
+}
+
+.category:before {
+	content:"";
+	display: inline-block;
+	background: url(../image/car.png);
+	width: 70px;
+	height: 70px;
 }
 
 body.back4 {
