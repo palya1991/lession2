@@ -17,6 +17,7 @@ body {
 	font-size: 18px;
 	background-color: grey;
 	font-style: italic;
+	font-family: Impact, fantasy;
 }
 
 .two a {
@@ -81,9 +82,16 @@ h2 {
 	color: grey;
 }
 
+h2 {
+	text-align: center;
+}
+
+.leftnone {
+	text-align: left;
+}
+
 .center1 a {
 	text-decoration: none;
-	text-align: center;
 	border-bottom: 5px double deepskyblue;
 	color: deepskyblue;
 	font-size: 30px;
@@ -96,15 +104,20 @@ h2 {
 }
 
 .bigred:first-letter {
-	color: red;
+	color: steelblue;
 	font-size: 26px;
 	font-style: italic;
 }
 
 .satellite {
 	list-style-type: none;
-	width: 35%;
+	width: 38%;
 	background-color: #c5faf1;
+}
+
+.libig {
+	color: royalblue;
+	font-size: 20px;
 }
 
 .satellite li:before {
@@ -113,6 +126,14 @@ h2 {
 	background: url(../image/114904.png);
 	width: 50px;
 	height: 33px;
+}
+
+.satellite .pic:before {
+	content: "";
+	display: inline-block;
+	background: url(../image/signal-sat.png);
+	width: 40px;
+	height: 40px;
 }
 
 .satellite .picsat:after {
@@ -150,21 +171,38 @@ img.border4 {
 	border-width: 5px;
 }
 
+img.border4:hover {
+	border-color: transparent;
+}
+
 input.sizefor {
 	width: 30%;
 	padding: 10px 45px;
 	box-sizing: border-box;
-	background-color: mintcream;
 	background-image: url(../image/keyboard.png);
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
 }
 
+#big1 {
+	text-transform: capitalize;
+}
+#big2 {
+	text-transform: capitalize;
+}
+#big3 {
+	text-transform: capitalize;
+}
+
+input#color:focus {
+	background-color: #35fce5;
+	color: #a7b002;
+}
+
 input#password {
 	width: 20%;
-	padding: 7px 10px;
-	box-sizing: border-box;box-sizing: border-box;
-	background-color: mintcream;
+	padding: 7px 40px;
+	box-sizing: border-box;
 	background-image: url(../image/keyboard2.png);
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
@@ -174,4 +212,18 @@ input#adressweb {
 	width: 25%;
 	padding: 7px 10px;
 	box-sizing: border-box;
+}
+
+.about {
+	color: limegreen;
+	font-size: 19px;
+	background-color: #ebebeb;
+	width: 19%;
+}
+
+.borderreg:hover {
+	border-style: dashed;
+	border-color: red;
+	border-width: 2px;
+	width: 23%;
 }
