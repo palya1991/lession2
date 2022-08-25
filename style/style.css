@@ -136,7 +136,23 @@ h2 {
 	height: 40px;
 }
 
-.satellite .picsat:after {
+#sat1:after {
+	content:"";
+	display: inline-block;
+	background: url(../image/new.png);
+	width: 30px;
+	height: 30px;
+}
+
+#sat2:after {
+	content:"";
+	display: inline-block;
+	background: url(../image/new.png);
+	width: 30px;
+	height: 30px;
+}
+
+#sat3:after {
 	content:"";
 	display: inline-block;
 	background: url(../image/new.png);
